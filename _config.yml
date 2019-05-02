@@ -64,7 +64,7 @@ jekyll-archives:
     - categories
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: '/assocrypto.fr/category/:name/'
     
 # Other
 markdown: kramdown
