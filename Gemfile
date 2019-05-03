@@ -20,6 +20,8 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
     gem 'jekyll-archives'
+#    gem 'jekyll-algolia', :github => 'algolia/jekyll-algolia', :branch => 'develop'
+    gem 'jekyll-algolia', :github => 'ashmaroli/jekyll-algolia', :branch => 'delete-key-not-reset'
 end
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -31,5 +33,3 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-gem "jekyll-remote-theme"
