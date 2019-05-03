@@ -1,7 +1,7 @@
 ---
 layout: search
 title: Recherche
-permalink: /search/
+permalink: /recherche/
 ---
 
 Recherche par mots-clés
