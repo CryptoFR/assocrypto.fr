@@ -4,3 +4,11 @@
 
 @import "syntax";
  
+.layout-search .section-title span {
+    font-size: 2rem;
+    text-transform: none;
+    letter-spacing:0;
+}
+.layout-search .section-title h2:before {
+    top:17px;
+}

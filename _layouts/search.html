@@ -1,0 +1,31 @@
+---
+layout: page
+title: Search
+---
+
+<!-- Begin List Posts
+================================================== -->
+<section class="article-post">
+	
+	<div id="search-searchbar"></div>
+	
+	<div class="post-list" id="search-hits" style="display:none">
+		{% for post in site.posts %}
+			<div class="post-item">
+
+				<span class="post-meta">{{ post.date | date_to_string }}</span>
+
+				<h2>
+				  <a class="post-link" href="{{ post.url | relative_url }}">
+					{{ post.title | escape }}
+				  </a>
+				</h2>
+
+				<div class="post-snippet">{{ post.excerpt }}</div>
+			</div>
+		{% endfor %}
+	</div>
+
+	{% include algolia.html %}
+
+</section>

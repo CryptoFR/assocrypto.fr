@@ -22,7 +22,7 @@ meta_description: "Site web officiel de l'association CryptoFR."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
-baseurl: '/assocrypto.fr'
+baseurl: ''
 email: 'asso@cryptofr.com'
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
@@ -57,6 +57,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-algolia
         
 # Archives
 jekyll-archives:
@@ -69,3 +70,18 @@ jekyll-archives:
 # Other
 markdown: kramdown
 highlighter: rouge
+
+# Algolia
+algolia:
+  application_id: 42YHMF3ZYW
+  index_name: jekyll
+  search_only_api_key: c908d5857c1026f1f77b005ba7dc9cb3
+  settings:
+    searchableAttributes:
+      - title
+      - headings
+      - unordered(content)
+      - unordered(author)
+      - unordered(categories)
+      - unordered(tags)
+
