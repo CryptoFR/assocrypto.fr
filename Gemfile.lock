@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/ashmaroli/jekyll-algolia.git
+  remote: https://github.com/ashmaroli/jekyll-algolia.git
   revision: ff6440d2bd55f2028f18de379ed149960cd89721
   branch: delete-key-not-reset
   specs:
@@ -284,4 +284,4 @@ DEPENDENCIES
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   2.0.1
+   1.17.3
