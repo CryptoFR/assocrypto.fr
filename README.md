@@ -16,3 +16,9 @@ https://asso.cryptofr.com/
 ```
 bundle exec jekyll serve --config "_config.yml,_config-dev.yml"
 ```
+
+## Resources
+
+### Documentation
+
+* https://community.algolia.com/jekyll-algolia/netlify.html
