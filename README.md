@@ -4,6 +4,11 @@
 
 https://asso.cryptofr.com/
 
+## Requirements
+
+* Ruby 2.5.x
+* Bundler 1.x
+
 ## Running
 
 ### Locally for development purpose
