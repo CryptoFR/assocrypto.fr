@@ -22,3 +22,4 @@ bundle exec jekyll serve --config "_config.yml,_config-dev.yml"
 ### Documentation
 
 * https://community.algolia.com/jekyll-algolia/netlify.html
+* https://community.algolia.com/jekyll-algolia/blog.html
